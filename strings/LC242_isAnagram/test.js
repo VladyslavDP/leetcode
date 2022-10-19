@@ -1,13 +1,17 @@
-const isAnagram = require('./index');
+const isAnagram = require("./index");
 
 test("isAnagram('anagram', 'nagaram') returns true", () => {
-	expect(isAnagram('anagram', 'nagaram')).toEqual(true);
+  expect(isAnagram("anagram", "nagaram")).toEqual(true);
 });
 
 test("isAnagram('rat', 'car') returns false", () => {
-	expect(isAnagram('rat', 'car')).toEqual(false);
+  expect(isAnagram("rat", "car")).toEqual(false);
 });
 
 test("isAnagram('', '') returns true", () => {
-	expect(isAnagram('', '')).toEqual(true);
+  expect(isAnagram("", "")).toEqual(true);
+});
+
+test("isAnagram('aacc', 'ccac') returns true", () => {
+  expect(isAnagram("aacc", "ccac")).toEqual(false);
 });
