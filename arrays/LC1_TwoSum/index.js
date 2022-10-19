@@ -10,6 +10,7 @@ function twoSum(arr, target) {
 
     map.set(remains, i);
   }
+  return null;
 }
 
 module.exports = twoSum;
