@@ -21,4 +21,5 @@ jest --watch LC100_isSameTree
 ### Sources
 
 [LeetCode addtional tasks](https://github.com/kondalraodurgam/LeetCode-Solutions)
-[JavaScript & LeetCode | The Ultimate Interview Bootcamp] (https://coursehunter.net/course/javascript-leetcode-the-ultimate-interview-bootcamp)
+[JavaScript & LeetCode | The Ultimate Interview Bootcamp](https://coursehunter.net/course/javascript-leetcode-the-ultimate-interview-bootcamp)
+
